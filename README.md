@@ -9,7 +9,13 @@ SPRINT 2  -
 
 
 
+
+
+
 ## **Hacer más**: ➕ 💪
+
+
+
 
 
 
@@ -17,7 +23,12 @@ SPRINT 2  -
 
 
 
+
+
+
 ## **Hacer menos**:  ➖ 👌
+
+
 
 
 
@@ -25,6 +36,8 @@ SPRINT 2  -
 
 
 
+--- 
 
+[Trello](https://trello.com/b/rV7zv3I4/grupo8index7a-rrayces)  
 
 
