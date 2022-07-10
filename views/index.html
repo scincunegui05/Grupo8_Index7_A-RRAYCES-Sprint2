@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/header-footer-styles.css" rel="stylesheet">
+    <title>A-RRAYCES</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="burgerMenu">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <form class="form" action="#" method="GET">
+                <input class="input" placeholder="Buscar">
+                <button class="submit"><span class="material-symbols-outlined">search</span></button>
+            </form>
+            <figure class="logo">
+                <img src="images/LOGO_color.png" alt="logo_ARRAYCES">
+            </figure>
+            <div class="shoppingBag">
+                <a href="./productCart"><span class="material-symbols-outlined">shopping_bag</span></a>
+            </div>
+        </div>
+        <nav class="totalNav">
+            <ul class="navSite">
+                <li><a href="./">Home</a></li>
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Tips y cuidados</a></li>
+                <li><a href="#">Envíos</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+            <ul class="navLogin">
+                <li><a href="./register">Crear cuenta</a></li>
+                <li><a href="./login">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bannerPublicitario">
+            <figure class="mobileBanner">
+                <img src="images/bannerOfertas-mobile.jpg" alt="Banner ofertas">
+            </figure>
+            <figure class="desktopBanner">
+                <img src="images/bannerOfertas-desktop.png" alt="Banner ofertas">
+            </figure>
+        </section>
+        <section class="categories">
+                <div class="primaries">
+                    <figure>
+                        <img src="images/bannerPlantas.jpg" alt="Banner productos" class="bannerPlantas">
+                    </figure>
+                </div>
+                <div class="secundaries">
+                    <figure>
+                        <img src="images/bannerMacetas.jpg" alt="Banner macetas" class="bannerMacetas">
+                        <img src="images/bannerCuidados.png" alt="Banner tips y cuidados" class="bannerCuidados">
+                    </figure>
+                </div>  
+        </section>
+        <section class="benefits">
+            <div class="local_shipping">
+                <span class="material-symbols-outlined" id="benefitsIcon">local_shipping</span>
+                <h3 class="benefitsTitle">Envíos sin cargo</h3>
+                <p>en CABA en compras superiores a $1.500,00</p>
+            </div>
+            <div class="verticalLine"></div>
+            <div class="phone_in_talk">
+                <span class="material-symbols-outlined" id="benefitsIcon">phone_in_talk</span>
+                <h3 class="benefitsTitle">Consultas</h3>
+                <p>Te asesoramos con tu compra</p>
+            </div>
+            <div class="verticalLine"></div>
+            <div class="paid">
+                <span class="material-symbols-outlined" id="benefitsIcon">paid</span>
+                <h3 class="benefitsTitle">Pagá como quieras</h3>
+                <p>Transferencia, tarjeta de crédito, efectivo</p>
+            </div>
+        </section>
+        <section class="elegidosDelMes">
+            <h2>Nuestros elegidos del mes</h2>
+            <div class="products">
+                <article>
+                    <a href="./productDetail">
+                        <figure>
+                            <img src="images/agapanthus-africanus1.jpg" alt="Agapanthus" class="product-image">
+                            <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                        </figure>
+                        <div class="description">
+                            <h3 class="name">Agapanthus Africanus</h3>
+                            <p class="price">$1.800,00</p>
+                            <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                        <figure>
+                            <img src="images/calathea-potus-variegado1.jpg" alt="Potus" class="product-image">
+                            <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                        </figure>
+                        <div class="description">
+                            <h3 class="name">Potus Variegado</h3>
+                            <p class="price">$1.800,00</p>
+                            <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                        <figure>
+                            <img src="images/ficus-elastica-variegata1.jpg" alt="Ficus" class="product-image">
+                            <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                        </figure>
+                        <div class="description">
+                            <h3 class="name">Ficus elástica variegata</h3>
+                            <p class="price">$1.800,00</p>
+                            <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                        <figure>
+                            <img src="images/fittonia1.jpg" alt="Fittonia" class="product-image">
+                            <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                        </figure>
+                        <div class="description">
+                            <h3 class="name">Fittonia</h3>
+                            <p class="price">$1.800,00</p>
+                            <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                        <figure>
+                            <img src="images/matanta-leuconera-tricolor1.jpg" alt="Mantanta" class="product-image">
+                            <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                        </figure>
+                        <div class="description">
+                            <h3 class="name">Matanta Leuconera Tricolor</h3>
+                            <p class="price">$1.800,00</p>
+                            <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                        <figure>
+                            <img src="images/philodendron-selloum1.jpg" alt="Philodendron" class="product-image">
+                            <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                        </figure>
+                        <div class="description">
+                            <h3 class="name">Philodendron Selloum</h3>
+                            <p class="price">$1.800,00</p>
+                            <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                    <figure>
+                        <img src="images/sansevieria-moonshine1.jpg" alt="Sansevieria" class="product-image">
+                        <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                    </figure>
+                    <div class="description">
+                        <h3 class="name">Sansevieria Moonshine</h3>
+                        <p class="price">$1.800,00</p>
+                        <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                    </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="./productDetail">
+                    <figure>
+                        <img src="images/tradescantia-zebrina1.jpg" alt="Tradescantia" class="product-image">
+                        <a href="#"><span class="material-symbols-outlined" id="shopProduct">shopping_bag</span></a>
+                    </figure>
+                    <div class="description">
+                        <h3 class="name">Tradescantia Zebrina</h3>
+                        <p class="price">$1.800,00</p>
+                        <p class="fee">6 cuotas sin interés de <strong>$300,00</strong></p>
+                    </div>
+                    </a>
+                </article>
+            </div>
+            <div class="viewMore">
+                <a href="#"><p class="more">Ver más</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="socialMediaAndInfo">
+            <div class="socialMedia">
+                <h4>REDES SOCIALES</h4>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <ul class="ourInfo">
+                <li><a href="">Quiénes somos</a></li>
+                <li><a href="">Políticas</a></li>
+            </ul>
+        </div>
+        <ul class="footerNav">
+            <li><a href="./">Home</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Tips y cuidados</a></li>
+            <li><a href="">Envíos</a></li>
+            <li><a href="">Preguntas frecuentes</a></li>
+        </ul>
+        <div class="contactAndFooterLogin">
+            <div class="contactContainer">
+                <ul class="contact">
+                    <li class="contactTitle">CONTACTO</li>
+                    <li class="contactInfo"><i class="fas fa-envelope"></i>info@arrayces.com.ar</li>
+                    <li class="contactInfo"><i class="fas fa-phone"></i>11-0055-5500</li>
+                    <li class="contactInfo"><i class="fas fa-map-marker-alt"></i>Los Lirios 420, CABA</li>
+                </ul>
+            </div>
+            <div class="footerLogin">
+                <button type="button"><a href="./register">Crear cuenta</a></button>
+                <button type="button"><a href="./login">Iniciar sesión</a></button>
+            </div>
+        </div>
+        <figure class="footerIsoMobile">
+            <img src="images/LOGO_white.png" alt="Iso ARRAYCES">
+        </figure>
+        <figure class="footerIsoDesktop">
+            <img src="images/ISO_white.png" alt="Iso ARRAYCES">
+        </figure>
+    </footer>
+</body>
+</html>

@@ -16,7 +16,8 @@ app.use(express.static(pathPublic))
 const port = 3000
 
 // Levantamos el servidor con app.listen(port)
-app.listen(port, () => console.log("¡Servidor funcionando en puerto" + port))
+app.listen(port, () => console.log(`Servidor funcionando en puerto ${
+  port}`))
 
 //Ruta index// Definimos la ruta que responda a GET "/" con la vista index.html
 

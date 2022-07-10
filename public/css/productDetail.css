@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    margin:20px 4px 80px 4px;
+}
+
+/* SECCION PRODUCT DETAIL */
+
+.productDetailSection{
+    margin: 20px 20px 20px 20px
+}
+
+.productDetailName{ 
+    margin-bottom: 20px;
+    color:#0f372c
+}
+
+.smallImages{
+    display: none;
+}
+
+.bigImage img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.productDetailTitle{
+    color: #d97873;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.productDetailPrice{
+    font-weight: bold;
+    padding-bottom: 3px;
+    color:#0f372c;
+    font-size: 18px;
+}
+
+.payment{
+    font-size: 14px;
+    color:#0f372c
+}
+
+.payment .method{
+    padding-top: 10px;
+    text-align: left;
+    color: #9eab5b;
+    text-decoration: underline;
+}
+
+.payment a p{
+    transition: all 600ms;
+}
+
+.payment a:hover p{
+    font-weight: 700;
+    color: #d97873;
+}
+
+
+.payment .method:hover{
+    font-weight: 600;
+}
+
+.productDetailDescription label{
+    display: block;
+    margin-top: 20px;
+    color:#0f372c
+}
+
+.productDetailDescription select{
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border-color:#0f372c;
+    color: #0f372c;
+    padding: 7px;
+}
+
+.productDetailDescription p{
+    margin-top: 10px;
+    color:#0f372c
+}
+
+.productDetail-amount{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #0f372c;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    color:#0f372c
+}
+
+.productDetail-amount span{
+    font-weight: bold;
+    font-size: 14px;
+    color:#0f372c;
+    width: 60%;
+    text-align: center;
+    padding: 0 10px ;
+}
+
+.productDetail-amount i{
+    width: 20%;
+    font-size: 8px;
+    color:#0f372c
+}
+
+i#minus{
+    padding-left: 5%;
+}
+
+i#plus{
+    text-align: right;
+    padding-right: 5%;
+}
+
+.productDetailButton button{
+    margin-top: 20px;
+    width: 65%;
+    padding: 10px 7px;
+    background-color:#0f372c;
+    color: #fff;
+    border: none;
+    transition: all 0.2s
+}
+
+.productDetailDelivery select{
+    margin-top: 25px;
+}
+
+
+.productDetailData{
+    text-align: justify;
+    color:#0f372c;
+}
+
+.productDetailData h4{
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+.productDetailText{
+    margin-top: 20px;
+}
+
+.productDetailSize{
+    margin-top: 20px;
+}
+
+
+/* SECTION PRODUCTOS RELACIONADOS */
+
+main section.productosRelacionados{
+    margin: 70px auto 0px;
+    width: 90%;
+}
+
+main section.productosRelacionados h2{
+    margin: 25px auto;
+    text-align: center;
+    color: #0f372c;
+}
+
+/* FlexBox en productos */
+
+main section div.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main section div.products article{
+    width: 100%;
+    margin-bottom: 50px;
+    transition: font-weigth 600ms;
+}
+
+img.product-image{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* descripcion producto */
+
+div.description{
+    text-align: center;
+}
+
+h3.name{
+    color: #d97873;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+p.price{
+    font-size: 18px;
+    padding-bottom: 3px;
+    font-weight: 500;
+    color: #0f372c;
+}
+
+p.fee{
+    color: #0f372c;
+}
+
+
+/* Icono carrito */
+
+div.products figure{
+    position: relative;
+}
+
+a span.material-symbols-outlined#shopProduct{
+    width: 45px;
+    height: 45px;
+    background-color: #d97873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: background-color 600ms;
+    z-index: 3;
+}
+
+span.material-symbols-outlined#shopProduct{
+    text-decoration: none;
+    color: white;
+}
+
+a span.material-symbols-outlined#shopProduct:hover{
+    background-color: #9eab5b;
+}
+
+div.products article:hover div.description h3{
+    font-weight: 700;
+}
+
+div.products article:hover div.description p{
+    font-weight: 700;
+}
+
+
+/* ESTILO SECTION BENEFITS */
+
+section.benefits{
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+h3.benefitsTitle{
+    font-size: 22px;
+    color: #0f372c;
+}
+
+span.material-symbols-outlined#benefitsIcon{ 
+    color: #0f372c;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+div.local_shipping, div.phone_in_talk, div.paid p{
+    font-size: 16px;
+    color: #4b8c52;
+}
+
+/*---------------@media---------------*/ 
+
+@media (min-width: 480px){
+    
+    main section div.products article{
+        width: 48%;
+    }
+
+    /* SECCION PRODUCT DETAIL */
+
+    .productImage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .smallImages{
+        display: flex;
+        flex-direction: column;
+        flex-grow: nowrap;
+        width: 20%;
+    }
+
+    .smallImages img.default{
+        margin-bottom: 9%;
+    }
+
+    .bigImage{
+        width: 80%;
+        padding-left: 2%;
+    }
+
+    .bigImage img{
+        width: 100%;
+    }
+
+    .productDetailTitle{
+        color: #d97873;
+        text-align: justify;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    .productDetailPrice{
+        font-weight: bold;
+        padding-bottom: 5px;
+        color:#0f372c;
+        font-size: 22px;
+    }
+
+    .payment{
+        font-size: 16px;
+    }
+
+    form.productDetailDescription{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .size, .amount{
+        width: 48%;
+    }
+
+    .productDetailDescription p{
+        margin-top: 20px;
+    }
+
+    .productDetailButton{
+        width: 60%;
+        text-align: left;
+    }
+
+    .productDetailDelivery{
+        width: 48%;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 769px){
+
+    /* SECCION PRODUCT DETAIL */
+
+    .productDetail{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .productImage{
+        width: 60%;
+        flex-wrap: nowrap;
+    }
+
+    .smallImages{
+        width: 25%;
+    }
+
+    .bigImage{
+        width: 75%;
+        padding-left: 2%;
+    }
+
+    .productDetailInfo{
+        width: 38%;
+    }
+
+    .productDetailButton{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .productDetailButton button{
+        width: 80%;
+    }
+
+    .productDetailDelivery{
+        width: 100%;
+        text-align: left;
+    }
+
+}
+
+
+/*----------------media min width 960px----------------*/
+
+@media (min-width: 960px){
+    
+    main section div.products article{
+        width: 22%;
+    }
+
+
+    .productDetailData{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .productDetailText{
+        width: 60%;
+        margin-right: 10%;
+    }
+
+    .productDetailSize{
+        width: 40%;
+    }
+    
+
+    /* ESTILO SECTION BENEFITS */
+
+    section.benefits{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    section.benefits div.local_shipping, div.phone_in_talk, div.paid{
+        padding: 0 30px;
+    }
+
+    div.verticalLine{
+        height: 80px;
+        width: 2px;
+        border-right: solid 1px #0f372c;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+@media (min-width: 1280px){
+
+    section.categories{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section.categories div.primaries{
+        width: 43%;
+    }
+
+    section.categories div.primaries figure img{
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    section.categories div.secundaries{
+        width: 57%;
+        align-content: right;
+        /*margin-left: 190px;*/
+    }
+
+    section.categories div.secundaries figure img{
+        width: 100%;
+    }
+
+    img.bannerMacetas{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+@media (min-width: 1700px){
+
+    /* SECCION PRODUCT DETAIL */
+
+    .productDetailTitle{
+        font-size: 26px;
+    }
+
+    .productDetailPrice{
+        font-size: 26px;
+    }
+
+    .payment{
+        font-size: 20px;
+    }
+
+    .size, .amount{
+        font-size: 20px;
+    }
+
+    .productDetailButton button{
+        width: 60%;
+    }
+
+    .productDetailData h4{
+        font-size: 24px;
+    }
+
+    .productDetailData p{
+        font-size: 20px;
+    }
+
+}
+

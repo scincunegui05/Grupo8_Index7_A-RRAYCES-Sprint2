@@ -4,196 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> <!-- traemos enlace de la tipografia elegida -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> <!-- traemos enlace de iconos --> 
-
-    <link rel="stylesheet" href="css/login.css">  <!-- traemos la ruta css de esta seccion -->
-      
-    <title>Sección login</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="/css/header-footer-styles.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Login</title>
+   
 </head>
-<header>     <!-- INICIO DEL HEADER VERSION SAMI -->
 
-
-
-        <div>   
-            <nav> <i class="fa fa-bars burger"></i> <!-- ICONO MENU HAMBURGUESA -->
-     <ul>   <!-- COMENZAMOS LA LISTA DE LOS ENLACES DEL MENU -->
-                        <li> <a href="#"> Home </a> </li>  
-                </ul>
-
-                <ul>
-                        <li> <a href="#"> Productos</a> </li>
-                                <ul>
-                                 <li><a href="#"> Plantas</a> </li>
-                                 <li><a href="#"> Macetas </a> </li>
-                                 <li><a href="#"> Insumos</a> </li>
-                                 </ul>
-                </ul>   
-
-           <ul> <li> <a href="#"> Tips y cuidados </a> </li> 
-           </ul>
-           <ul> <li> <a href="#"> Cursos </a> </li> 
-           </ul>
-           <ul> <li> <a href="#"> Envios </a> </li> 
-           </ul>
-           <ul> <li> <a href="#"> Preguntas frecuentes </a> </li> 
-           </ul>
-           <ul> <li> <a href="#">Contacto </a> </li> 
-           </ul>
-              
-            
-    </ul>
-
-
-        </nav>
-        <figure> 
-         <img src="images/LOGO_color.png" alt= "Logo A-RRAYCES"> <!-- LOGO DE LA MARCA -->
-        </figure>
-         </div>
-
-   
-        
-      <!--FORMULARIO BARRA DE BUSQUEDA-->
-
-      <div 
-            class="barra-busqueda" action="#" method="GET">
-   
-
-        <input type="text" placeholder="buscar" required class="input">
-
-        <i class="fas fa-search"></i></div >  <!--ICONO LUPA-->
-        <div class="submit">
-
-      </div>
-
-    
-    <br>    <!-- salto de linea-->
-    <nav> 
-        <div i class="fas fa-shopping-cart"> </i> </nav><!-- ICONO DE CARRITO-->
-    <br> <!-- salto de linea-->
-         <section> <a href="#"> Carrito </a>  <!-- ENLACE DE CARRITO-->
-        </section>
-   
-  
-
-
-</header> <!-- FIN DEL HEADER VERSION SAMI -->
-
-
-<br><!-- salto de linea-->
-<br><!-- salto de linea-->
 <body>
-        <section> <!-- ENLACES -->
-             <a href="#"> Inicio</a>> 
-             <a href="#"> Mi cuenta</a>> 
-             <a href="#"> Iniciar sesión</a>> 
-        </section>
-
-<br><!-- salto de linea-->   
-
-        <h2>INICIÁ SESIÓN</h2> 
-
-        <i class="fab fa-google"></i>  <a href= # > Iniciar con Gooogle </a> <!-- ICONO GOOGLE +-->    <!--  ENLACE INICIAR CON GOOLGLE  -->  
-                                       
-                                         
-        <i class="fab fa-facebook-f"></i> <a href= # > Iniciar con Facebook </a>   <!-- ICONO FB +-->  <!-- ENLACE INICIAR CON FB  -->
-                                        
-  <br><!-- salto de linea-->  
-
-        <form action="login.html" method="POST">
-
-         <p>
-           <!-- campo para el email -->
-          <label for = "email"> e-mail:</label> 
-          <input type="email" name = "email" id= "email"> 
-         </p>
-         
-         <p>
-           <!-- campo para la contraseña -->
-           <label for = "password"> contraseña:</label> 
-          <input type="password" name = "password" id="password"> <i class="far fa-eye-slash"></i><!-- + ICONO OJITO -->
-     
-         </p>
-       </form>
-   
-       <h6> <a href= "#"> ¿Olvidaste tu contraseña? </a> </h6>  
-        
-       <section>
-            <input   type="checkbox" name="No soy un robot" > <!-- + CHECKBOX --> 
-            <label for = "No soy un robot" > No soy un robot </label> 
-            <img width="30" src="images/reCAPTCHA-logo.png" alt="LOGO reCAPTCHA"> <!-- + IMG RECAPTCHA Y achique tamaño-->
-
-        </section>
-        <br><!-- salto de linea-->   
-           
-        <form action="login.html" method="POST">
-            <button type="submit" >Iniciar sesión </button> <!-- BOTON DE ENVIAR DATOS-->   
-        </form>
-    <br>
-        <h4>¿No tenés cuenta aún? <a href="#"> Creá tu cuenta </a></h4>
-      </form>
-
-</body>  <!-- FINAL DE ESTRUCTURA DE SECCION DE INICIO DE SESION -->   
-<br>
-<br>
-
-
-<footer> <!-- INICIO DEL FOOTER -->
-
-<section>   <!-- SECCION REDES SOCIALES -->
-<h4> Redes sociales</h4>
-<a href="#"> <i class="fab fa-facebook-square"></i> </a>   <!-- ENLACE DESDE LOGO AL FB -->
-<a href="#"><i class="fab fa-instagram"></i></a><!-- ENLACE DESDE LOGO AL INSTAGRAM -->
-<a href="#"><i class="fab fa-whatsapp"></i></a> <!-- ENLACE DESDE LOGO AL WHASTAPP-->
-
-</section>
-
-<section> <!-- ENLACES DE QUIENES INFORMACION DE LA MARCA-->
-  <h5> <a href="#"> Quienes Somos </a></h5>
-  <h5> <a href="#"> Misión, visión, valores </a></h5>
-</section>
-
-<section> <!-- ENLACES A TODAS LAS SECCIONES-->
-        <h6> 
-          <ul> 
-            <li><a href= "#">Home </a></li>
-            <li><a href= "#">Productos </a></li>
-            <li><a href="#">Tips y cuidados </a></li>
-            <li><a href= "#">Envíos </a></li>
-            <li><a href= "#">Preguntas frecuentes </a></li>
-          </ul> 
-        </h6>
-  </section>
-
-<section><!-- CONTACTO-->
-  <h4> Contacto </h4>
-  <h6> 
-      <ul> 
-      <li><i class="fas fa-phone-alt"></i> <a href= "#">Teléfono </a></li>
-      <li><i class="fas fa-at"> </i><a href= "#"> info@arrayces.com.ar </a></li>
-      <li><i class="fas fa-map-marker-alt"></i> <a href="#">Direccón </a></li>
-       </ul> 
-  </h6>
-
-    <section><!-- ENLACES CREAR E INICIAR -->
-     <h4> <a href = "#" >Crear cuenta </a> </h4> 
-     <h4> <a href = "#" >Iniciar sesión </a> </h4>
-     </section>
-
-     <section><!--LOGO PEQUEÑO FOOTER FINAL-->
-      <figure> 
-        <img src="images/ISO_white.png" alt= "Logo A-RRAYCES Pequeño"> </img> <!-- LOGO PEQUEÑO ARRAYCES -->
-       </figure>
     
-    </section>
+    <header>
+        <div class="top-header">
+            <div class="burgerMenu">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <form class="form" action="#" method="GET">
+                <input class="input" placeholder="Buscar">
+                <button class="submit"><span class="material-symbols-outlined">search</span></button>
+            </form>
+            <figure class="logo">
+                <img src="images/LOGO_color.png" alt="logo_ARRAYCES">
+            </figure>
+            <div class="shoppingBag">
+                <a href="./productCart"><span class="material-symbols-outlined">shopping_bag</span></a>
+            </div>
+        </div>
+        <nav class="totalNav">
+            <ul class="navSite">
+                <li><a href="./">Home</a></li>
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Tips y cuidados</a></li>
+                <li><a href="#">Envíos</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+            <ul class="navLogin">
+                <li><a href="./register">Crear cuenta</a></li>
+                <li><a href="./login">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="login">
+            <div class="login-items">
+                <div class="in-cuenta-log"> 
+                    <h4> Inicio /  Mi cuenta /  <strong> Iniciar sesión </strong> </h4>
+                </div>
+                <div class="iniciar-sesion">
+                    <h2>Iniciar sesión</h2>
+                    <div class="login-con-gg-fb">
+                        <button class="gg"><i class="fab fa-google"></i> <span>Iniciar con Google</span></button>
+                        <button class="fb"><i class="fab fa-facebook-f"></i><span> Iniciar con Facebook </span></button>
+                    </div>
+                    <form action="#" method="POST" class="login-form">
+                        <input type="text" name="nombre" class="nombre" placeholder="Nombre de usuario o Correo electrónico" required>
+                        <input type="password" name="contraseña" class="contraseña"  placeholder="Contraseña" required> 
+                        <p> <a href="#">¿Olvidaste tu contraseña?</a></p>
+                        <div class="contenedor-robot">
+                            <div class="robot">
+                                <input class="checkbox" type="checkbox" name="No soy un robot">
+                                <p>No soy un robot</p>  
+                                <img class="recaptcha" src="images/reCAPTCHA-logo.png" alt="LOGO reCAPTCHA"> <!-- + IMG RECAPTCHA Y achique tamaño-->
+                            </div>
+                        </div>
+                        <button class="boton-inicio"> Iniciar sesión </button> 
+                    </form> 
+                    <div class="registrate">
+                        <p class="link"> <a href="/register">¿No tienes cuenta? ¡Registrate!</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-
-
-</section>
-</footer>
+    <footer>
+        <div class="socialMediaAndInfo">
+            <div class="socialMedia">
+                <h4>REDES SOCIALES</h4>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <ul class="ourInfo">
+                <li><a href="">Quiénes somos</a></li>
+                <li><a href="">Políticas</a></li>
+            </ul>
+        </div>
+        <ul class="footerNav">
+            <li><a href="./">Home</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Tips y cuidados</a></li>
+            <li><a href="">Envíos</a></li>
+            <li><a href="">Preguntas frecuentes</a></li>
+        </ul>
+        <div class="contactAndFooterLogin">
+            <ul class="contact">
+                <li>CONTACTO</li>
+                <li class="contactInfo"><i class="fas fa-envelope"></i>info@arrayces.com.ar</li>
+                <li class="contactInfo"><i class="fas fa-phone"></i>11-0055-5500</li>
+                <li class="contactInfo"><i class="fas fa-map-marker-alt"></i>Los Lirios 420, CABA</li>
+            </ul>
+            <div class="footerLogin">
+                <button type="button"><a href="./register">Crear cuenta</a></button>
+                <button type="button"><a href="./login">Iniciar sesión</a></button>
+            </div>
+        </div>
+        <figure class="footerIsoMobile">
+            <img src="images/LOGO_white.png" alt="Iso ARRAYCES">
+        </figure>
+        <figure class="footerIsoDesktop">
+            <img src="images/ISO_white.png" alt="Iso ARRAYCES">
+        </figure>
+    </footer>
+    
+</body>
 </html>
-    
-
-

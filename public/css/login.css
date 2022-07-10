@@ -1,1 +1,318 @@
-footer {background-color: aquamarine;} /*solo para ver el logo final    */
+
+/*--LOGIN CSS--*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family:'Open Sans'; 
+}
+
+main{
+    margin:20px 20px 20px 20px;
+}
+
+.in-cuenta-log h4{
+    margin: 20px 0 20px 0px;
+    font-weight: normal;
+}
+
+.iniciar-sesion h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-con-gg-fb{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.gg{
+    background-color: rgb(219 68 55);
+    width: 50%;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+    margin-right: 5px;
+}
+
+.gg span{
+    display: none;
+}
+
+.gg:hover{
+    background-color:  rgb(218, 83, 71);
+}
+
+.fb{
+    background-color: #3b5998;
+    width: 50%;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s;
+    margin-left:5px;
+}
+
+.fb span{
+    display:none;
+}
+
+.fb:hover{
+    background-color: #4f6596;
+}
+
+.login-form{
+    text-align: center;
+}
+
+
+.login-form .nombre, .login-form .contraseña{
+    width: 90vw;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #0f372c;
+}
+
+.login-form input:focus{
+    font-weight: bold;
+    color: #0f372c;
+}
+
+.login-form input::placeholder{
+    color: #0f372c;
+}
+
+.login-form p{
+    font-size: 12px;
+    text-align: right;
+}
+
+.login-form p a{
+    text-decoration: none;
+    color:#0f372c;
+}
+
+.login-form p a:hover{
+    color: #9EAB5B ;
+    font-weight: 600;
+}
+
+.boton-inicio{
+    margin-top: 20px;
+    background-color: #0f372c;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width:50%;
+    padding: 7px 15px;
+    border: none;
+    transition: all 0.4s;
+}
+
+.boton-inicio:hover{
+    background-color: #9EAB5B;
+    }
+
+.contenedor-robot{
+    display: flex;
+    justify-content: center;
+}
+
+.robot{
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #0f372c;
+    width: 55%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.robot p{
+    font-size: 14px;
+}
+
+.robot img{
+    width: 30px;
+}
+
+.registrate{
+    color:#0f372c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registrate a:link{
+    text-decoration: none;
+}
+
+.registrate a:visited{
+    color:#0f372c;
+}
+
+.registrate a:visited:hover{
+    color:#9EAB5B;
+    font-weight: 600;
+}
+
+.registrate:hover{
+    color: #9EAB5B;
+    font-weight: 600;
+}
+
+
+@media (min-width: 481px){
+
+
+    .gg{
+        margin-right: 2px; 
+    }
+
+    .gg span{
+        display: inline;
+    }
+
+    .fb{
+        margin-left: 2px;  
+    }
+
+    .fb span{
+        display: inline;
+    }
+
+    .robot{
+        width: 45%;
+        padding: 15px;
+    }
+
+    .boton-inicio{
+        width: 35%;
+    }
+}
+
+
+@media (min-width: 769px){
+
+    main{
+        margin:20px 40px 20px 40px;
+    }
+
+    .login-con-gg-fb{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    .gg{
+        width: 35%;
+    }
+
+    .fb{
+        width: 35%;
+    }
+
+    .login-form .nombre, .login-form .contraseña{
+        width: 65vw;
+        
+    }
+
+    .login-form p{
+        text-align: center;
+    }
+
+    .robot{
+        width: 30%;
+        
+    }
+
+    .boton-inicio{
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 960px){
+
+    .gg{
+        width: 35%;
+    }
+
+    .fb{
+        width: 35%;
+        
+    }
+
+    .robot{
+        width: 25%;
+    }
+
+}
+
+@media (min-width: 1280px){
+
+    .in-cuenta-log h4{
+        font-size: 20px;
+    }
+
+    .iniciar-sesion h2{
+        font-size: 32px;
+    }
+
+    .gg{
+        width: 26%;
+        padding: 7px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .fb{
+        width: 26%;
+        padding: 7px;
+        font-size: 18px;
+    }
+
+    .login-form .nombre, .login-form .contraseña{
+        width: 50vw;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .login-form p{
+        font-size: 14px;
+    }
+    
+    .robot{
+        width: 15%;
+    }
+
+    .robot p{
+        font-size: 18px;
+    }
+
+    .robot img{
+        width: 40px;
+    }
+
+    .boton-inicio{
+        width: 10%;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .registrate p{
+        font-size: 20px;
+    }
+
+}
+
+
+

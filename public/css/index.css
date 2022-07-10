@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ESTILOS HEADER 
+
+div.top-header form {
+    display: none;
+}
+
+nav ul.navSite, ul.navLogin{
+    display: none;
+}
+
+div.top-header{
+    background-color: #d3d68f;
+    padding: 3%; 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+div.burgerMenu{
+    width: 10%;
+    color: #0f372c;
+    display: inline;
+}
+
+figure.logo{
+    display: inline;
+}
+
+figure.logo img{
+    width: 70%;
+    max-width: 250px;
+}
+
+div.shoppingBag{
+    width: 10%;
+    color: #0f372c;
+    text-decoration: none;
+    display: inline;
+}
+*/
+
+/* ESTILO BANNER PUBLICITARIO - SLIDE */
+
+section.bannerPublicitario{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+section.bannerPublicitario figure img{
+    width: 100%;
+}
+
+figure.desktopBanner{
+    display: none;
+}
+
+
+/* ESTILO BANNER CATEGORIAS */
+
+section.categories{
+    display: none;
+}
+
+
+/* ESTILO SECTION BENEFITS */
+
+section.benefits{
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+h3.benefitsTitle{
+    font-size: 22px;
+    color: #0f372c;
+}
+
+span.material-symbols-outlined#benefitsIcon{ 
+    color: #0f372c;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+div.local_shipping, div.phone_in_talk, div.paid p{
+    font-size: 16px;
+    color: #4b8c52;
+}
+
+
+/* ESTILOS SECTION ELEGIDOS DEL MES */
+
+main section.elegidosDelMes{
+    margin: 70px auto;
+    width: 90%;
+}
+
+main section.elegidosDelMes h2{
+    margin: 25px auto;
+    text-align: center;
+    color: #0f372c;
+}
+
+/* FlexBox en productos */
+
+main section div.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+main section div.products article{
+    width: 100%;
+    margin-bottom: 50px;
+    transition: font-weigth 600ms;
+}
+
+
+img.product-image{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+/* HOVER EN PRODUCTO */
+
+/*
+.productContent{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.productContent img{
+    width: 100%;
+    margin-bottom: 15px;
+    position: absolute;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.productContent img.product-image-top{
+    z-index: 2;
+}
+
+.productContent img.product-image-top:hover{
+    opacity: 0;
+}
+*/
+
+/* descripcion producto */
+
+div.description{
+    text-align: center;
+}
+
+h3.name{
+    color: #d97873;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+p.price{
+    font-size: 18px;
+    padding-bottom: 3px;
+    font-weight: 500;
+    color: #0f372c;
+}
+
+p.fee{
+    color: #0f372c;
+}
+
+
+/* Icono carrito */
+div.products figure{
+    position: relative;
+}
+
+a span.material-symbols-outlined#shopProduct{
+    width: 45px;
+    height: 45px;
+    background-color: #d97873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: background-color 600ms;
+    z-index: 3;
+}
+
+span.material-symbols-outlined#shopProduct{
+    text-decoration: none;
+    color: white;
+}
+
+a span.material-symbols-outlined#shopProduct:hover{
+    background-color: #9eab5b;
+}
+
+div.products article:hover div.description h3{
+    font-weight: 700;
+}
+
+div.products article:hover div.description p{
+    font-weight: 700;
+}
+
+
+/* Estilo Ver más */
+
+div.viewMore a{
+    transition: all 600ms;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+div.viewMore:hover a p{
+    font-weight: 700;
+    color: #d97873;
+}
+
+p.more{
+    text-align: center;
+    color: #9eab5b;
+    text-decoration: underline;
+}
+
+
+/* ESTILOS FOOTER 
+
+footer{
+    width: 100%;
+    background-color: #9EAB5B;
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+div.socialMedia h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+div.socialMedia i{
+    font-size: 35px;
+    padding: 10px;
+}
+
+footer ul li a:visited{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+footer ul li{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+ul.ourInfo, ul.contact{
+    margin-top: 20px;
+}
+
+ul.contact li.contactInfo{
+    text-align: left;
+    width: 68%;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+ul.contact i{
+    padding-right: 10px;
+}
+*/
+
+/* Botones login footer 
+
+div.footerLogin{
+    background-color: #4b8c52;
+    margin: 25px auto;
+}
+
+div.footerLogin button{
+    background-color: #4b8c52;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+*/
+
+/* LOGO EN FOOTER 
+
+figure.footerIsoDesktop{
+    display: none;
+}
+
+figure.footerIsoMobile img{
+    width: 70%;
+}
+
+*/
+
+
+
+
+/* MEDIA QUERY PARA NAVEGACION EN TABLETS */
+@media (min-width: 480px){
+    
+    /* div.burgerMenu, div.shoppingBag{
+        font-size: 30px;
+    } */
+    
+    /* figure.logo img{
+        width: 90%;
+    } */
+    
+    main section div.products article{
+        width: 48%;
+    }
+
+    /* footer */
+    /* ul.contact li.contactInfo{
+        text-align: left;
+        width: 35%;
+        margin: 0 auto;
+        list-style-type: none;
+    } */
+    
+    /* figure.footerIsoMobile img{
+        width: 40%;
+    } */
+
+    /* div.footerLogin button{
+        padding: 10px 30px;
+        font-size: 18px;
+        line-height: 30px;
+    } */
+    
+}
+
+
+/* MEDIA QUERY PARA NAVEGACION EN DESKTOP */
+
+@media (min-width: 960px){
+
+    /* ESTILOS HEADER */
+
+    /* div.top-header{
+        height: 60px;
+        padding: 10px;
+    } */
+  
+   /*  div.burgerMenu{
+        display: none;
+    } */
+
+    /* header div.top-header form {
+        display: flex;
+        width: 50%;
+        max-width: 250px;
+        border: solid 2px #0f372c;
+        border-radius: 18px;
+        margin-left: 40px;
+    } */
+
+    /* div.top-header form input{
+        font-size: 14px;
+        padding: 8px 10px;
+        color: #0f372c;
+        border: none;
+        background-color: #d3d68f;
+        border-radius: 20px;
+        width: 90%;
+        outline: none;
+    } */
+
+    /* div.top-header form input:focus{
+        border: none;
+        background-color: transparent;
+        font-weight: 600;
+    } */
+
+    /* div.top-header form button{
+        background-color: #d3d68f;
+        border: none;
+    } */
+
+    /* div.top-header form input::placeholder{
+        color: #0f372c;
+    } */
+
+    /* header nav{
+        background-color: #0f372c;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;    
+    } */
+
+    /* header nav ul{
+        display: flex;
+        justify-content: space-between;
+    } */
+
+    /* header ul li{
+        list-style-type: none;
+        padding: 10px 8px;
+        font-size: 15px;
+    } */
+
+    /* header nav ul li a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    } */
+
+   /*  header nav ul li a:hover{
+        color: #9eab5b;
+        font-weight: 600;
+    }
+ */
+    /* figure.logo{
+        display: inline;
+    }
+ */
+    /* figure.logo img{
+        width: 80%;
+        max-width: 250px;
+    } */
+
+    /* div a.shopping_bag{
+        width: 10%;
+        color: #0f372c;
+        text-decoration: none;
+        display: inline;
+    } */
+
+/*     -----------------
+ */
+    main section div.products article{
+        width: 22%;
+    }
+
+    figure.mobileBanner{
+        display: none;
+    }
+
+    figure.desktopBanner{
+        display: block;
+    }
+   
+
+    /* ESTILO SECTION BENEFITS */
+
+    section.benefits{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    section.benefits div.local_shipping, div.phone_in_talk, div.paid{
+        padding: 0 30px;
+    }
+
+    div.verticalLine{
+        height: 80px;
+        width: 2px;
+        border-right: solid 1px #0f372c;
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 1280px){
+
+    /* NAV */
+
+   /*  header nav{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;   
+        padding: 0 45px;
+    } */
+
+    /* header ul li{
+        padding: 10px 15px;
+    } */
+
+   /*  header nav ul li a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    } */
+
+    section.bannerPublicitario{
+        margin-bottom: 1%;
+    }
+
+    /* BANNERS CATEGORÍAS */
+
+    section.categories{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section.categories div.primaries{
+        width: 43%;
+    }
+
+    section.categories div.primaries figure img{
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    section.categories div.secundaries{
+        width: 57%;
+        align-content: right;
+        /*margin-left: 190px;*/
+    }
+
+    section.categories div.secundaries figure img{
+        width: 100%;
+    }
+
+    img.bannerMacetas{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 1700px){
+
+        /* BANNERS CATEGORÍAS */
+    
+    
+        section.categories div.secundaries figure{
+            margin-left: 35px;
+        }
+    
+        img.bannerMacetas{
+            margin-bottom: 50px;
+        }
+
+}
