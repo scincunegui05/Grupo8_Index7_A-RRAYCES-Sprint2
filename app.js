@@ -13,7 +13,7 @@ const pathPublic = path.resolve(__dirname, "public")
 app.use(express.static(pathPublic))
 
 // definimos el puerto en el que se va a levantar el servidor
-const port = 3000
+const port = process.env.PORT || 3000
 
 // Levantamos el servidor con app.listen(port)
 app.listen(port, () => console.log(`Servidor funcionando en puerto ${
