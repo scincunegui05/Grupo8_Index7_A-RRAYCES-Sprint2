@@ -350,7 +350,7 @@ p.more{
     }
 
     .contact input{
-        width: 500px;
+        width: 460px;
         padding: 10px;
         font-size: 16px;
     }
@@ -364,13 +364,13 @@ p.more{
     }
 
     .delivery select{
-        width: 500px;  
+        width: 460px;  
         padding: 10px;
         font-size: 16px;
     }
      
     .delivery input{
-        width: 500px; 
+        width: 460px; 
         padding: 10px;
         font-size: 16px;
     }

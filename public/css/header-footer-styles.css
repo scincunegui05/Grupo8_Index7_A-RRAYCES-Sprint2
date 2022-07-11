@@ -298,7 +298,7 @@ figure.footerIsoMobile img{
     header ul li{
         list-style-type: none;
         padding: 10px 8px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     header nav ul li a{
@@ -466,5 +466,8 @@ figure.footerIsoMobile img{
         margin: 0px 20px;
     }
 
+    header ul li{
+        font-size: 16px;
+    }
 
 }
