@@ -438,14 +438,20 @@ p.more{
 
     .subtotal{
         font-size: 20px;
+        margin-left: 10px;
     }
     
     .total{
         font-size: 24px;
+        margin-left: 10px;
     }
     
     .discount{
-        font-size: 18px;
+        font-size: 18px; 
+    }
+
+    .line{
+        margin-left: 10px;
         
     }
 }
