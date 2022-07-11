@@ -136,8 +136,21 @@ i#plus{
     background-color:#0f372c;
     color: #fff;
     border: none;
-    transition: all 0.2s
+    transition: all 0.4s
 }
+
+.productDetailButton button a:link{
+    text-decoration: none;
+}
+
+.productDetailButton button a:visited{
+    color:#fff
+}
+
+.productDetailButton button:hover{
+    background-color: #9eab5b;
+}
+
 
 .productDetailDelivery select{
     margin-top: 25px;
