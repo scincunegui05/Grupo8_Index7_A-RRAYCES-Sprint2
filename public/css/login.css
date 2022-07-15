@@ -91,13 +91,13 @@ main{
 
 .login-form .feedback{
     position: relative;
-    left: 260px;
-    bottom: 38px;
+    left: 115px;
+    bottom: 32px;
     z-index: 1;
 }
 
 .login-form input:focus:invalid ~ .feedback::after{
-    content:"* Campo requerido";
+    content:"* Requerido";
     font-size: 14px;
     color:red;
     font-weight: normal;
@@ -210,6 +210,14 @@ main{
         display: inline;
     }
 
+    .login-form .feedback{
+        left: 140px;
+    }
+
+    .login-form input:focus:invalid ~ .feedback::after{
+        content:"* Campo requerido";    
+    }
+
     .robot{
         width: 45%;
         padding: 15px;
@@ -246,6 +254,10 @@ main{
         
     }
 
+    .login-form .feedback{
+        left: 165px;
+    }
+
     .login-form p{
         text-align: center;
     }
@@ -270,6 +282,10 @@ main{
     .fb{
         width: 35%;
         
+    }
+
+    .login-form .feedback{
+        left: 230px;
     }
 
     .robot{
@@ -307,6 +323,20 @@ main{
         font-size: 16px;
     }
 
+    .login-form .feedback{
+        left: 220px;
+        bottom: 40px;
+        
+    }
+
+    .login-form input:focus:invalid ~ .feedback::after{
+        font-size: 18px;   
+    }
+    
+    .login-form input:focus:valid ~ .feedback::after{
+        font-size: 18px;
+    }
+
     .login-form p{
         font-size: 14px;
     }
@@ -333,6 +363,14 @@ main{
         font-size: 20px;
     }
 
+}
+
+@media (min-width: 1700px){
+    .login-form .feedback{
+        left: 310px;
+        bottom: 40px;
+        
+    }
 }
 
 

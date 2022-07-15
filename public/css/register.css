@@ -88,13 +88,13 @@ main{
 
 .register-form .feedback{
     position: relative;
-    left: 260px;
-    bottom: 38px;
+    left: 115px;
+    bottom: 32px;
     z-index: 1;
 }
 
 .register-form input:focus:invalid ~ .feedback::after{
-    content:"* Campo requerido";
+    content:"* Requerido";
     font-size: 14px;
     color:red;
     font-weight: normal;
@@ -191,6 +191,14 @@ main{
         display: inline;
     }
 
+    .register-form .feedback{
+        left: 140px; 
+    }
+
+    .register-form input:focus:invalid ~ .feedback::after{
+        content:"* Campo requerido";    
+    }
+
     .robot{
         width: 45%;
         padding: 10px;
@@ -225,6 +233,10 @@ main{
         width: 65vw;  
     }
 
+    .register-form .feedback{
+        left: 165px; 
+    }
+
     .robot{
         width: 30%;
     }
@@ -244,6 +256,10 @@ main{
     .fb{
         width: 35%;
         
+    }
+
+    .register-form .feedback{
+        left: 230px; 
     }
 
     .robot{
@@ -281,6 +297,19 @@ main{
         font-size: 16px;
     }
 
+    .register-form .feedback{
+        left: 220px;
+        bottom: 40px;
+    }
+
+    .register-form input:focus:invalid ~ .feedback::after{
+        font-size: 18px;   
+    }
+
+    .register-form  input:focus:valid ~ .feedback::after{
+        font-size: 18px;
+    }
+
     
     .robot{
         width: 15%;
@@ -305,4 +334,12 @@ main{
         font-size: 20px;
     }
 
+}
+
+
+@media (min-width: 1700px){
+    .register-form .feedback{
+        left: 310px;
+        bottom: 40px;   
+    }
 }
