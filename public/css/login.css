@@ -89,6 +89,27 @@ main{
     color: #0f372c;
 }
 
+.login-form .feedback{
+    position: relative;
+    left: 260px;
+    bottom: 38px;
+    z-index: 1;
+}
+
+.login-form input:focus:invalid ~ .feedback::after{
+    content:"* Campo requerido";
+    font-size: 14px;
+    color:red;
+    font-weight: normal;
+    
+}
+
+.login-form input:focus:valid ~ .feedback::after{
+    color: #39b54a;
+    content: "✔";
+    font-size: 14px;
+}
+
 .login-form p{
     font-size: 12px;
     text-align: right;

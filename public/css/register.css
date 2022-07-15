@@ -86,6 +86,27 @@ main{
     color: #0f372c;
 }
 
+.register-form .feedback{
+    position: relative;
+    left: 260px;
+    bottom: 38px;
+    z-index: 1;
+}
+
+.register-form input:focus:invalid ~ .feedback::after{
+    content:"* Campo requerido";
+    font-size: 14px;
+    color:red;
+    font-weight: normal;
+    
+}
+
+.register-form input:focus:valid ~ .feedback::after{
+    color: #39b54a;
+    content: "✔";
+    font-size: 14px;
+}
+
 .register-form button{
     margin-top: 20px;
     background-color: #0f372c;

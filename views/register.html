@@ -60,10 +60,22 @@
                 </div>
                 <div class="register">
                     <form action="#" method="POST" class="register-form">
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario" required></input>
-                        <input type="email" name="email" id="email" placeholder="Correo electrónico" required></input>
-                        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required></input>
-                        <input type="password" name="contraseña" id="repass" placeholder="Confirmar contraseña" required></input>
+                        <div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario" minLength="2" required></input>
+                            <div class="feedback"></div>
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Correo electrónico" required></input>
+                            <div class="feedback"></div>
+                        </div>
+                        <div>
+                            <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required></input>
+                            <div class="feedback"></div>
+                        </div>
+                        <div>
+                            <input type="password" name="contraseña" id="repass" placeholder="Confirmar contraseña" required></input>
+                            <div class="feedback"></div>
+                        </div>
                         <div class="contenedor-robot">
                             <div class="robot">
                                 <input class="checkbox" type="checkbox" name="No soy un robot" required>
